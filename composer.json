@@ -1,0 +1,19 @@
+{
+    "name": "printdeal/dummy-php",
+    "description": "A dummy composer package",
+    "type": "library",
+    "license": "MIT",
+    "minimum-stability": "stable",
+    "authors": [
+        {
+            "name": "Printdeal Development",
+            "email": "info@printdeal.com"
+        }
+    ],
+    "autoload":{
+        "psr-4":{
+            "Printdeal\\": "src/"
+        }
+    },
+    "require": {}
+}
